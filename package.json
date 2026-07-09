@@ -1,0 +1,13 @@
+{
+  "name": "ci-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.js dist/index.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "jest": "^30.0.0"
+  }
+}
